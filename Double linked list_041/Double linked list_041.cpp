@@ -26,3 +26,7 @@ public:
 	void searchdata();
 };
 
+DOUBLELINKEDLIST::DOUBLELINKEDLIST() {
+	start = NULL;
+}
+
