@@ -144,3 +144,9 @@ void DOUBLELINKEDLIST::hapus() {
 	else
 		cout << "Record with roll number " << rollNo << "deleted" << endl;
 }
+void  DOUBLELINKEDLIST::searchdata() {
+	if (listempty() == true) {
+		cout << "\nList is empty" << endl;
+
+	}
+}
