@@ -30,3 +30,17 @@ DOUBLELINKEDLIST::DOUBLELINKEDLIST() {
 	start = NULL;
 }
 
+void DOUBLELINKEDLIST::addnode() {
+	int nim;
+	string nm;
+	cout << "\nEnter the roll number of the student: ";
+	cin >> nim;
+	cout << "\nEnter the name of the student: ";
+	cin.ignore();
+	getline(cin, nm);
+	node* newnode = new node();
+	newnode->noMhs = nim;
+	newnode->name = nm;
+
+	if
+}
