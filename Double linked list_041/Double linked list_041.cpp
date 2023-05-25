@@ -2,7 +2,6 @@
 #include <string>
 using namespace std;
 
-
 class node {
 public:
 	int noMhs;
@@ -80,6 +79,7 @@ bool DOUBLELINKEDLIST::search(int rollNo, node** previous, node** current) {
 	}
 	return (*current != NULL);
 }
+
 
 bool DOUBLELINKEDLIST::deletenode(int rollNo) {
 	node* previous, * current;
